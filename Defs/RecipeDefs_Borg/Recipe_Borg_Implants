@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <RecipeDef>
+    <defName>MakeBorgEyeImplant</defName>
+    <label>make BorgEyeImplant</label>
+    <description>make BorgEyeImplant.</description>
+    <jobString>making BorgEyeImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgEyeImplant>1</BorgEyeImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+      <li>BorgAlcove</li>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+ 
+
+
+  <RecipeDef>
+    <defName>MakeBorgArmImplant</defName>
+    <label>make BorgArmImplant</label>
+    <description>make BorgArmImplant.</description>
+    <jobString>making BorgArmImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgArmImplant>1</BorgArmImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+      <li>BorgAlcove</li>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+ 
+   <RecipeDef>
+    <defName>MakeBorgLegImplant</defName>
+    <label>make BorgLegImplant</label>
+    <description>make BorgLegImplant.</description>
+    <jobString>making BorgLegImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>400</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgLegImplant>1</BorgLegImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+ 
+   <RecipeDef>
+    <defName>MakeBorgSpineImplant</defName>
+    <label>make BorgSpineImplant</label>
+    <description>make BorgSpineImplant.</description>
+    <jobString>making BorgSpineImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>300</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgSpineImplant>1</BorgSpineImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+      <li>BorgAlcove</li>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+     <RecipeDef>
+    <defName>MakeBorgHeartImplant</defName>
+    <label>make BorgHeartImplant</label>
+    <description>make BorgHeartImplant.</description>
+    <jobString>making BorgHeartImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>400</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgHeartImplant>1</BorgHeartImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+       <RecipeDef>
+    <defName>MakeBorgStomachImplant</defName>
+    <label>make BorgStomachImplant</label>
+    <description>make BorgStomachImplant.</description>
+    <jobString>making BorgStomachImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgStomachImplant>1</BorgStomachImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+      <li>BorgAlcove</li>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+      <defName>MakeBorgEarImplant</defName>
+    <label>make BorgEarImplant</label>
+    <description>make BorgEarImplant.</description>
+    <jobString>making BorgEarImplant.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>8000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+		<allowMixingIngredients>true</allowMixingIngredients>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>BorgThings</li>
+          </categories>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>BorgThings</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <BorgEarImplant>1</BorgEarImplant>
+    </products>
+    <skillRequirements>
+      <Crafting>1</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+		<recipeUsers>
+      <li>BorgAlcove</li>
+	  <li>BorgMachiningStation</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>
